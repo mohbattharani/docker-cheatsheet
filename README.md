@@ -53,7 +53,8 @@ Install graphviz on Docker to render images in notebook.
 
 Run ([ref](https://github.com/pangeo-data/helm-chart/pull/45/commits/60e397299133c2915f5b08fcf36a146eb09c730f))
 
-```apt-get update \
+```
+apt-get update \
   && apt-get install -yq --no-install-recommends libfuse-dev nano fuse vim git \
   && apt-get install -yq --no-install-recommends libfuse-dev nano fuse vim git graphviz \
   && apt-get clean \
