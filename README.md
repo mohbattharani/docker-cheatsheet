@@ -1,8 +1,10 @@
 #### Docker-cheatsheet
  Build a Docker image
 ```docker build -t [image_name]:[tag] .```
+
  Run a Docker container specifying a name
 ```docker run --name [container_name] [image_name]:[tag]```
+
  Fetch the logs of a container
 ```docker logs -f [container_id_or_name]```
  Run a command in a running container
