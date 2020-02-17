@@ -65,3 +65,7 @@ apt-get update \
   && rm -rf /var/lib/apt/lists/*
 USER $NB_USER 
 ```
+
+#### Push Docker image to Docker hub
+```docker tag id [name]```
+```docker push [name]```
