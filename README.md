@@ -30,6 +30,7 @@
 ``` docker rmi [image_id_or_name]```
 
 ```docker file/location/in/base/os container-id:/file-location </br>```
+ 
  Remove untagged Docker images
 ``` docker image prune -fa ```
 
