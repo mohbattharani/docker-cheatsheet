@@ -68,4 +68,5 @@ USER $NB_USER
 
 #### Push Docker image to Docker hub
 ```docker tag id [name]```
+
 ```docker push [name]```
